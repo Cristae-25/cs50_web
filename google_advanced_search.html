@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <a href="index.html"> Google Search </a>
+    </div>
+    <form action="https://google.com/search">
+      <img src="google.png" , alt="Google logo" , width="200" , margin="-100" />
+
+      <table
+        style="
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+          margin-bottom: 100;
+        "
+      >
+        <tr>
+          <td><label>All these words:</label></td>
+          <td>
+            <input type="text" name="as_q" placeholder="e.g. web development" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label>Exact phrase:</label></td>
+          <td>
+            <input type="text" name="as_epq" placeholder="e.g. HTTP requests" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label>Exclude these words:</label></td>
+          <td>
+            <input type="text" name="as_eq" placeholder="e.g. tutorial" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label>Search within site/domain:</label></td>
+          <td>
+            <input
+              type="text"
+              name="as_sitesearch"
+              placeholder="e.g. apple.com"
+            />
+          </td>
+        </tr>
+      </table>
+
+      <div>
+        <button type="submit" class="blue-btn" value="Google Search">
+          Advanced Search
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
